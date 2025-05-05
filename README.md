@@ -1,7 +1,7 @@
-This is a website made for a friend.
+This is a website I created for a friend.
 
-Started from an HTML5 UP template. 
+I Started from an HTML5 UP template. 
 
-I did this to learn and create my website.
+It was done with the intention to learn and create my website.
 
 That is useless information.
