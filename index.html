@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>VideoWorks - Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.png" alt="" style="height: 100px; width: auto;"/></span><span class="title">Production</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="/projects/">Projects</a></li>
+						<li><a href="/team/">Team</a></li>
+						<li><a href="/contact/">Contact</a></li>	
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Leadership Statement</h1>
+                            <p>At Videoworks, our mission is to elevate the art of live experiences through innovative video and lighting installations. Based in Montréal, we collaborate with creatives and producers in the scene industry to deliver immersive, technically refined environments that captivate audiences and transform spaces.</p>
+							
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img src="images/tile-projects.jpg" alt="" style="height: 400px; width: auto;" />
+									</span>
+									<a href="/projects/">
+										<h2>Projects</h2>
+										<div class="content">
+											<p>Explore innovative projects that push creative boundaries</p>
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/tile-team.jpg" alt="" style="height: 400px; width: auto;"/>
+									</span>
+									<a href="/team/">
+										<h2>Team</h2>
+										<div class="content">
+											<p>Meet the experts behind the magic</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/tile-contact.png" alt=""style="height: 400px; width: auto;"/>
+									</span>
+									<a href="/contact/">
+										<h2>Contact</h2>
+										<div class="content">
+											<p>Get in touch and bring your vision to life!</p>
+										</div>
+									</a>
+								</article>
+								
+					</div>
+
+				<!-- Footer - Scripted -->
+
+				<div id="footer-container"></div>
+
+				<script>
+				  fetch("footer.html")
+					.then(response => response.text())
+					.then(data => {
+					  document.getElementById("footer-container").innerHTML = data;
+					})
+					.catch(error => console.error("Erreur de chargement du footer :", error));
+				</script>
+		
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+	</body>
+</html>
