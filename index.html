@@ -5,8 +5,8 @@
 		<title>VideoWorks - Home</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
 	</head>
 
 	<body class="is-preload">
@@ -19,7 +19,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.png" alt="" style="height: 100px; width: auto;"/></span><span class="title">Production</span>
+									<span class="symbol"><img src="/images/logo.png" alt="" style="height: 100px; width: auto;"/></span><span class="title">Production</span>
 								</a>
 
 							<!-- Nav -->
@@ -52,7 +52,7 @@
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
-										<img src="images/tile-projects.jpg" alt="" style="height: 400px; width: auto;" />
+										<img src="/images/tile-projects.jpg" alt="" style="height: 400px; width: auto;" />
 									</span>
 									<a href="/projects/">
 										<h2>Projects</h2>
@@ -63,7 +63,7 @@
 								</article>
 								<article class="style3">
 									<span class="image">
-										<img src="images/tile-team.jpg" alt="" style="height: 400px; width: auto;"/>
+										<img src="/images/tile-team.jpg" alt="" style="height: 400px; width: auto;"/>
 									</span>
 									<a href="/team/">
 										<h2>Team</h2>
@@ -74,7 +74,7 @@
 								</article>
 								<article class="style2">
 									<span class="image">
-										<img src="images/tile-contact.png" alt=""style="height: 400px; width: auto;"/>
+										<img src="/images/tile-contact.png" alt=""style="height: 400px; width: auto;"/>
 									</span>
 									<a href="/contact/">
 										<h2>Contact</h2>
@@ -91,7 +91,7 @@
 				<div id="footer-container"></div>
 
 				<script>
-				  fetch("footer.html")
+				  fetch("/footer.html")
 					.then(response => response.text())
 					.then(data => {
 					  document.getElementById("footer-container").innerHTML = data;

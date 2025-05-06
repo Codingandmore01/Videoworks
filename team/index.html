@@ -5,8 +5,8 @@
 		<title>VideoWorks - Team</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -18,7 +18,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.png" alt="" style="height: 100px; width: auto;"/></span><span class="title">Production</span>
+									<span class="symbol"><img src="/images/logo.png" alt="" style="height: 100px; width: auto;"/></span><span class="title">Production</span>
 								</a>
 
 							<!-- Nav -->
@@ -47,7 +47,7 @@
 						<div class="inner">
 							<h1>Team</h1>
 								<!-- Team member 01 -->
-								<span class="image main"><img src="images/team01.jpg" alt="" /></span>
+								<span class="image main"><img src="/images/team01.jpg" alt="" /></span>
 								<h2>Raphaël Raymond | Vice-President Co-Founder</h2>
 								<p>Having started in technical production at a very young age, Raphaël quickly developed a deep passion for the craft.
 								After nearly 10 formative years at Solotech, primarily in the field of video, he chose to broaden his horizons and continue refining his skills.
@@ -58,7 +58,7 @@
 								<br>
 								<hr>
 								<br>
-								<span class="image main"><img src="images/team02.jpg" alt="" /></span>
+								<span class="image main"><img src="/images/team02.jpg" alt="" /></span>
 																
 								<h2>Clément Moreau | Vice-President Co-Founder </h2>
 								<p>Clément, a true enthusiast of his craft. His experience and determination in the field of photography have been invaluable assets in the development of his career.
@@ -77,7 +77,7 @@
 				<div id="footer-container"></div>
 
 				<script>
-				  fetch("footer.html")
+				  fetch("/footer.html")
 					.then(response => response.text())
 					.then(data => {
 					  document.getElementById("footer-container").innerHTML = data;
